@@ -155,18 +155,17 @@ body {
   padding: 20px;
 }
 
-.footer .footer-content h3 {
+.footer h3 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.footer .footer-content p {
+.footer p, .footer .footer-links a {
   margin-bottom: 10px;
 }
 
 .footer .footer-links a {
   color: #fff;
-  margin: 0 5px;
   text-decoration: none;
 }
 
@@ -175,9 +174,9 @@ body {
 }
 
 .footer-bottom {
-  margin-top: 10px;
   font-size: 14px;
 }
+
 
 @media (max-width: 768px) {
   .header {

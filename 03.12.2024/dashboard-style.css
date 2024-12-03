@@ -140,7 +140,7 @@ body {
     font-size: 16px;
 }
 
-/* Footer */
+/* Footer Section */
 .footer {
     background: #333;
     color: #fff;
@@ -148,16 +148,24 @@ body {
     padding: 20px;
 }
 
-.footer .footer-content h3 {
+.footer h3 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.footer .footer-content p {
+.footer p, .footer .footer-links a {
     margin-bottom: 10px;
 }
 
+.footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
 .footer-bottom {
-    margin-top: 10px;
     font-size: 14px;
 }

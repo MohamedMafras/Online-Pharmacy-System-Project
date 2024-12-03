@@ -1,0 +1,134 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('healthcare-8940018_1280.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Contact Section Styling */
+.contact-container {
+    background-color: rgba(26, 115, 232, 0.8);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    font-size: 18px;
+    margin: 0 0 30px;
+    max-width: 600px;
+}
+
+/* Contact Details Layout */
+.contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* Contact Card Styling */
+.card {
+    background-color: white;
+    color: #1a73e8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.card i {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #1a73e8;
+}
+
+/* Specific Card Background Color */
+.phone-card, .email-card, .location-card {
+    background-color: #804881;
+}
+
+/* Button Container */
+.button-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Button Styling */
+.button {
+    background-color: white;
+    color: #1a73e8;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #f9f9f9;
+    color: #0049c0;
+}
+
+/* Footer Section */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer p, .footer .footer-links a {
+    margin-bottom: 10px;
+}
+
+.footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    font-size: 14px;
+}
