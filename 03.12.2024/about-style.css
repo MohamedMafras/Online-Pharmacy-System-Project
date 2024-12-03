@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Andika', sans-serif;
+}
+
+/* Body with Background Image */
+body {
+    background: url('ph.jpg') no-repeat center center/cover; /* Background image */
+    background-size: cover;  /* Ensures the image covers the whole body */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: linear-gradient(to right, #36096d, #37d5d6);
+    color: #fff;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header .headbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.header .headbar a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about-section {
+    position: relative;
+    background: url('ph.jpg') no-repeat center center/cover;
+    background-size: cover; /* Ensures the background image covers the section */
+    color: #d2b511;
+    padding: 50px 10%;
+    text-align: center;
+    height: 100vh;
+}
+
+.about-content {
+    background: rgba(47, 3, 105, 0.942); /* Semi-transparent overlay */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Mission and Vision Section */
+.mission, .vision {
+    background: rgba(47, 3, 105, 0.942); /* Dark overlay for mission and vision */
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.mission h3, .vision h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mission p, .vision p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer Section */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer .footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer .footer-content p {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .about-content {
+        padding: 20px;
+    }
+
+    .mission, .vision {
+        padding: 20px;
+    }
+}

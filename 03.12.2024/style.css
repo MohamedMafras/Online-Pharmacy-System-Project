@@ -1,0 +1,198 @@
+/* General Reset and Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Andika", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .logo img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.header .logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.header .headbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.header .headbar a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+/* Login Button - Unique Color */
+.header-buttons .login-btn {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header-buttons .login-btn:hover {
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+}
+
+/* Helpline Button */
+.header-buttons .helpline-btn {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header-buttons .helpline-btn:hover {
+  background: linear-gradient(to right, #1d2671, #c33764);
+}
+
+/* Main Section */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: url("copy-space-doctor-office_23-2148533062.webp") no-repeat
+    center center/cover;
+  color: #fff;
+}
+
+.main .content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.main h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.main p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.buttons .btn-primary {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons .btn-secondary {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #f7971e, #ffd200);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons .btn-primary:hover {
+  background: linear-gradient(to right, #36096d, #37d5d6);
+}
+
+.buttons .btn-secondary:hover {
+  background: linear-gradient(to right, #ff8800, #ffcc00);
+}
+
+/* Footer Section */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer .footer-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer .footer-content p {
+  margin-bottom: 10px;
+}
+
+.footer .footer-links a {
+  color: #fff;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .main h1 {
+    font-size: 36px;
+  }
+
+  .main p {
+    font-size: 16px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}

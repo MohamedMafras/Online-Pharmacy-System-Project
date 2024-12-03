@@ -1,0 +1,163 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Andika', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: linear-gradient(to right, #36096d, #37d5d6);
+    color: #fff;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header .headbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.header .headbar a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard Layout */
+.dashboard {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+.dashboard-sidebar {
+    width: 250px;
+    background: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.dashboard-sidebar ul {
+    list-style-type: none;
+}
+
+.dashboard-sidebar ul li {
+    margin: 10px 0;
+}
+
+.dashboard-sidebar ul li a {
+    text-decoration: none;
+    color: #0070fa;
+    font-size: 18px;
+}
+
+.dashboard-sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-content h2 {
+    margin-bottom: 20px;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.overview-box {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.overview-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.overview-box p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.recent-activity {
+    margin-top: 20px;
+}
+
+.recent-activity h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recent-activity ul {
+    list-style-type: none;
+}
+
+.recent-activity ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer .footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer .footer-content p {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}
