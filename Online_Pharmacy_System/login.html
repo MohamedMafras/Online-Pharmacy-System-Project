@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Raheem Pharmacy</title>
+    <title>Login - Raheem Pharmacy</title>
     <link href="https://fonts.googleapis.com/css2?family=Andika&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="about-style.css">
+    <link rel="stylesheet" href="login-style.css">
 </head>
 <body>
     <header class="header">
@@ -14,28 +14,30 @@
             <h1>Raheem Pharmacy</h1>
         </div>
         <nav class="headbar">
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             <a href="services.html">Services</a>
+            <a href="about.html">About Us</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
 
-    <section class="about-section">
-        <div class="about-content">
-            <h2>About Us</h2>
-            <p>Raheem Pharmacy is committed to provide our community top-notch medical care and pharmacy services. With an emphasis on safety, dependability, and customer service, we are dedicated to providing a variety of pharmaceutical solutions. To help you manage your health and well-being, our team of experts is available.</p>
+    <main class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form action="dashboard.html" method="POST">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+                <p class="register-link">Don't have an account? <a href="register.html">Register here</a></p>
+            </form>
         </div>
-
-        <div class="mission">
-            <h3>Our Mission</h3>
-            <p>Our mission is to offer healthcare solutions that are efficient, reasonably priced, and easily accessible. We want to be the place you go for all of your pharmaceutical requirements, and we make sure that each patient gets the best care possible.</p>
-        </div>
-
-        <div class="vision">
-            <h3>Our Vision</h3>
-            <p>To establish ourselves as a reliable leader in pharmacy services, broadening our clientele and improving their quality of life by expert and considerate treatment.</p>
-        </div>
-    </section>
+    </main>
 
     <footer class="footer">
         <div class="footer-content">
