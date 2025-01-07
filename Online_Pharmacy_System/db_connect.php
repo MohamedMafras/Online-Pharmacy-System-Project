@@ -1,7 +1,7 @@
 <?php
-$host = 'localhost';
+$host = '127.0.0.1:3306';
 $username = 'root';
-$password = '';
+$password = 'mariadb';
 $database = 'bigpharmacysystem';
 
 // Create connection
