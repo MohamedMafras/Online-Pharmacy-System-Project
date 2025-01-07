@@ -14,20 +14,20 @@
             <h1>Raheem Pharmacy</h1>
         </div>
         <nav class="headbar">
-            <a href="index.html">Home</a>
-            <a href="profile.html">Profile</a>
-            <a href="orders.html">Orders</a>
-            <a href="logout.html">Logout</a>
+            <a href="index.php">Home</a>
+            <a href="profile.php">Profile</a>
+            <a href="orders.php">Orders</a>
+            <a href="logout.php">Logout</a>
         </nav>
     </header>
 
     <main class="dashboard">
         <div class="dashboard-sidebar">
             <ul>
-                <li><a href="dashboard.html">Dashboard</a></li>
-                <li><a href="manage-orders.html">Manage Orders</a></li>
-                <li><a href="manage-products.html">Manage Products</a></li>
-                <li><a href="account-settings.html">Account Settings</a></li>
+                <li><a href="dashboard.php">Dashboard</a></li>
+                <li><a href="manage-orders.php">Manage Orders</a></li>
+                <li><a href="manage-products.php">Manage Products</a></li>
+                <li><a href="account-settings.php">Account Settings</a></li>
             </ul>
         </div>
         <div class="dashboard-content">
