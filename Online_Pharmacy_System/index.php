@@ -18,15 +18,15 @@
       </div>
       <nav class="headbar">
         <a href="#home">Home</a>
-        <a href="services.html">Services</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
+        <a href="services.php">Services</a>
+        <a href="about.php">About Us</a>
+        <a href="contact.php">Contact</a>
       </nav>
       <div class="header-buttons">
-        <a href="login.html">
+        <a href="login.php">
           <button class="login-btn">Login</button>
         </a>
-        <a href="contact.html">
+        <a href="contact.php">
         <button class="helpline-btn">Helpline</button>
       </a>
       </div>
