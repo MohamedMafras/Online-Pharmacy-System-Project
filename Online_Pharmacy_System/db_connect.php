@@ -1,14 +1,23 @@
 <?php
-$host = '127.0.0.1:3306';
-$username = 'root';
-$password = 'mariadb';
-$database = 'bigpharmacysystem';
-
-// Create connection
-$connect = new mysqli($host, $username, $password, $database);
-
-// Check connection
-if ($connect->connect_error) {
-    die("Connection failed: " . $connect->connect_error);
+//constant variable
+define('SERVERNAME', '127.0.0.1:3306');
+define('USERNAME', 'root');
+define('PASSWORD', 'mariadb');
+define('DBNAME', 'bigpharmacysystem');
+try {
+	//connect with database
+	$connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
+	if (!$connect) {
+		die("connection failed".mysqli_connect_error());
+	} 
+	else {
+		//echo "Connected successfully";
+	}
+} 
+catch (Exception $e) {
+	die($e->getMessage());
 }
+
+//echo "abc<br>";
+
 ?>
