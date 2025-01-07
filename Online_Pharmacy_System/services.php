@@ -47,7 +47,7 @@
 
         <!-- Home Page Button -->
         <div class="button-container">
-            <a href="index.html" class="button">Back to Home</a>
+            <a href="index.php" class="button">Back to Home</a>
         </div>
     </div>
 

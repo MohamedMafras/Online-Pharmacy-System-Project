@@ -14,9 +14,9 @@
             <h1>Raheem Pharmacy</h1>
         </div>
         <nav class="headbar">
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
+            <a href="index.php">Home</a>
+            <a href="services.php">Services</a>
+            <a href="contact.php">Contact</a>
         </nav>
     </header>
 
